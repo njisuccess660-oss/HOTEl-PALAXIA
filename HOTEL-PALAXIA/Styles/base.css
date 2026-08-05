@@ -75,6 +75,7 @@ footer{
     display: flex;
     gap: 350px;
     background-color: black;
+    width: 100%;
     color: var(--primary-color);
     list-style: none;
 }

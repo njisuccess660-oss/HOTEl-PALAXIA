@@ -33,11 +33,12 @@ form{
 }
 
 .form-content input{
-    border-color:  #423624  ;
+    border-color:  #423624;
     border-radius: 5px;
+    width: 30%;
 }
 #d10{
-    width: 250px;
+    width: 60%;
     height: 150px;
 }
 .bottom{
