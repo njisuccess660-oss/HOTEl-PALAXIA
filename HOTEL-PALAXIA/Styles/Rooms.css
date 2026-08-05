@@ -1,0 +1,72 @@
+main h2{
+    text-align: center;
+    color: #DFAA5B;
+    margin-top: 20px;
+}
+.rooms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.rooms img{
+    width: 600px;
+    height: 470px;
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    transition: 400ms;
+}
+.rooms img:hover{
+    filter: grayscale(1);
+}
+.cards{
+     position: relative;
+}
+.imageText{
+    position: absolute ;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    align-items: center;
+   
+}
+.imageText p{
+  margin-top: 10px;
+  font-size: 30px;  
+
+}
+.invite{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.invite p{
+    color: #DFAA5B;
+    margin-top: 20px;
+    font-size: 24px;
+}
+.booking{
+    padding: 10px;
+    width: 202px;
+    height: 60px;
+    color: #f5f4f4;
+    background-color: #DFAA5B;
+    font-size: large;
+    border-radius: 12px;
+    text-align: center;
+    align-items: center;
+}
+.booking:hover{
+    color: black;
+    background-color: #595343;
+    border-radius: 12px;
+    padding: 8px;
+}

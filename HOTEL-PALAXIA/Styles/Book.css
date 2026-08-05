@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h2{
+    text-align: center;
+    color: #957554;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+form{
+    line-height: 35px;
+    margin-left: 100px;
+}
+.bottom-buttons{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    gap: 50px;
+}

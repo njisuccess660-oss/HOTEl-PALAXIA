@@ -3,9 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hotel Palaxia </title>
+    <link rel="stylesheet" href="../Styles/Our-hotel.css">
+    <link rel="stylesheet" href="../Styles/base.css">
+   
 </head>
 <body>
+    <section class="header">
+     <div class="logo">
+        <h3>PALAXIA<br>HOTEL<br>CAMEROON</h3>
+     </div>
+    <nav class="nav-container">
+        <div><a href="./Our-hotel.html">Our Hotel</a></div>
+        <div><a href="./Rooms.html">Rooms & Rates</a></div>
+        <div><a href="./Facilities.html">Facilities</a></div>
+        <div><a href="./Contact.html">Contact US</a></div>
+    </nav>
+    </section>
     
+     <section class="tool-bar">
+       <div>
+        <select name="city" class="time" required>
+            <option value="" disabled selected hidden>Select City</option>
+            <option value="bamenda">bamenda</option>
+            <option value="yaounde">Yaounde</option>
+            <option value="douala">Douala</option>
+            <option value="buea">Buea</option>
+            <option value="bafoussam">Bafoussam</option>
+            <option value="limbe">Limbe</option>
+        </select>
+       </div>
+       <div>
+        <button class="time"><a href="#checkin">Checkin</a></button>
+       </div>
+       <div>
+        <button class="time"><a href="#checkout">Checkout</a></button>
+       </div>
+       <div>
+        <button class="btn" onclick="alert('Available 24/7 | contact: 67X XXX XXX')"><a href="#availability">Check availability</a></button>
+       </div>
+     </section>
+     <section class="banner">
+        <img src="../imges/Pictures/banner.png" alt="main view">
+        <div class="banner-content">
+            <h1>WELCOME TO THE PALAXIA HOTEL</h1>
+            <p>Good people. Good thinking. Good feeling.</p>
+            <a href="../Pages/Login.html" class="links">Sign in</a>
+        </div>
+     </section>
+     <section id="checkin">
+        <h2>CheckIn Here</h2>
+       <form>
+        <label for="d1">Email:</label>
+        <input type="email" id="d1" placeholder="customer@gmail.com">
+        <label for="d2">Guest Full Name: </label>
+        <input type="name"  id="d2" placeholder="Fullname">
+        <label for="d3">Phone Number: </label>
+        <input type="number"  id="d3" placeholder="............">
+        <label for="d4">Estimated Arrival Time: </label>
+        <input type="time"  id="d4">
+        <label for="d5">Number of Guest: </label>
+        <input type="number"  id="d5">
+        <label for="d6">Special Requests: </label>
+        <input type="text"  id="d6">
+       <button class="btn"><a href="../Pages/Rooms.html">Proceed</a></button>
+       </form>
+     </section>
+     <section id="checkout">
+    <h3>Make Payment Here</h3>
+     <div class="payment">
+        <img src="../imges/Assets/card.png" alt="Virtual-Cards">
+        <img src="../imges/Assets/MTN.jpeg" alt="MOMO">
+     </div>
+     </section>
+    
+     <footer>
+        <div>
+            <ul>
+                <li><a href="../Pages/About.html">About</a></li>
+                <li><a href="../Pages/Contact.html">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Contact info</h3>
+            <p>Main branch Bamenda, Northwest Region, CM<br>
+              +237 678934946 && +237 657934567<br>
+              </p>
+            <p>&copy; 2026 PALAXIA HOTEL. All rights reserved.</p>
+        </div>
+        <div>
+        </div>
+     </footer>
+     <script src="../Scripts/layout.js"></script>
+     <script src="../Scripts/Book.js"></script>
 </body>
 </html>
