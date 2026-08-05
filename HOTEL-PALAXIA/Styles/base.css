@@ -120,3 +120,44 @@ h3{
     border-radius: 12px;
     padding: 8px; 
 }
+@media(max-width: 768){
+    h1, .header-title{
+        font-size: 1.8rem;
+        padding: 0 10px;
+    }
+    nav, .nav-links{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    nav a{
+        font-size: 0.9rem
+    }
+    .tool-bar{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .tool-bar button{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    form, .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        padding: 15%;
+    }
+    .image, .icons{
+        width: 100%;
+        height: auto;
+    }
+    form input{
+        width: 100%;
+        max-width: 100%;
+    }
+}
